@@ -1,7 +1,9 @@
 {
+    apiVersion: 'v1',
     kind: 'List',
     items: [
         {
+            apiVersion: 'v1',
             kind: 'Pod',
             metadata: {
                 name: 'example-app-jsonnet',
@@ -24,6 +26,7 @@
             },
         },
         {
+            apiVersion: 'v1',
             kind: 'Service',
             metadata: {
                 name: 'example-app-jsonnet',
@@ -43,6 +46,7 @@
             },
         },
         {
+            apiVersion: 'gateway.networking.k8s.io/v1',
             kind: 'HTTPRoute',
             metadata: {
                 name: 'example-app-jsonnet',
